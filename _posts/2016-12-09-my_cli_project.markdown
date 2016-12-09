@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "My CLI Project"
+date:   2016-12-09 02:10:50 +0000
+---
+
+
+So here I was finishing up the last bit of the Sinatra lesson plan. I was estatic to finally be done with it and move into rails. As I hit continue, I was slapped in the face with a topbar stating that I had a project to complete before I continued. Wow, can't believe I totaly forgot about the CLI gem Project. It is something I've been putting off for a long time, reasons being that I had no idea what I wanted to base it on. All my ideas for site to scrape seemed either too mundane or too arduous. Now I was forced to face my nightmare.
+
+After hours of pondering, and a bit of procrastination, my mind finally settled on a site to base my project on. [DeviantArt](http://www.deviantart.com/). It's a site that I spend a good portion of my procrastination time on, so I figured 'why not?'. The first part of this project was relatively easy. I already knew the general outline for the project. I knew I need a model for art pieces, and that I'd need a model for the artist of said art pieces. Fleshing out the models were relatively easy as well, I knew an art piece needed a title and an artist, and that an artist needed a name. After that I figured each model should have a link that lead to their page so the user can view them.
+
+The rough part of the project was the obtainment of the data to put into these models. Parsing [DeviantArt](http://www.deviantart.com/)  for info is a real pain in the donkey. It took me over an hour of debugging via `pry` to finally get the data that I wanted to use for my classes. After that, everything else was pretty much fair play. Back in the models, the knew I needed methods to find the specific class objects. For `Art`, instead of a general find method, I needed to find an instance either by title or by artist and thus I implemented two `find` methods. For the `Artist` I only need to worry about finding by name. The `Artist` model also required me to go a little deeper. Being that I wanted to display for information about an artist, I needed to go one level deeper by following through to the artist's main page. I was then able to write a scraper method for the artist model to scrape an artist's page for information.
+
+The last part of the project was basically fleshing out user interface. This also took a bit of time because I didn't know exactly how I wanted the user to interact with the program. Following the pattern of previous scraping projects, I decided that I'd give the user options of which route to go. Since I had multiple Art instances as well as Artist, I figured that the user should at least be able to view all of the artists as well as the art pieces. Then I thought about finding specific art pieces or artists, and that pretty much gived me the structure of the user interface. What followed was just a slew of "puts" statement to guide the user through the process, paired with methods that allowed the user to obtain the information they desired.
+
+Overall, the CLI project was a lot more challenging that I initially assumed. Not because the programming is difficult, but mostly the process of thinking through what exactly you want it to do. Though it took an unexpected about of time, I believe that by doing this project I'm much more prepared for each subsequent projects.
