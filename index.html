@@ -34,3 +34,20 @@ layout: page
     {% endif %}
 </ul>
 {% endif %}
+
+<!-- Title Animation Script -->
+<script>
+$(function () {
+    // Animate.css Hinge animation
+    var animationName = 'animated hinge';
+
+    // Animation end event
+    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+
+    // Add animation class after page load then remove class after animation completes
+    $('.title').addClass(animationName).one(animationEnd, function(){
+        $(this).removeClass(animationName);
+    })
+})
+    
+</script>
