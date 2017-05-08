@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Current time killer I'm excited about"
-date:   2017-05-01 03:28:00 +0000
+date:   2017-04-30 23:28:01 -0400
 ---
 
 
@@ -15,3 +15,4 @@ Fourth. Attack On Titan (anime) new season just started and It’s pretty insane
 
 Fifth. Elon Musk just teased about a self-driving TRUCK (Think Optimus prime) at a ted event and talked about new underground tunnel system for more efficient commutes.
 
+Sixth. Designcourse has a free Angular 4 course
