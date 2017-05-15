@@ -5,7 +5,7 @@ date:   2017-05-14 23:59:10 -0400
 ---
 
 
-Still learning, just passively.
+Sometimes you're too burnt out to code. Or maybe you don't have acess to your computer, or just dont want to.Still learning, just passively.
 
 
 
