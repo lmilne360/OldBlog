@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Reactive Forms in Angular
-date:   2017-05-21 23:52:32 +0000
+date:   2017-05-21 19:52:33 -0400
 ---
 
 
