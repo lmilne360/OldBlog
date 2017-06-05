@@ -67,11 +67,11 @@ export class Person{
 
 After fleshing out your data model, you can import it into any component that you wish to use it in. You can do so by adding the following line at the top of your component:
 
-import { Person } from '../path/to/person-model';
+`import { Person } from '../path/to/person-model';`
 
 From there, you can easily create instances of the person model by calling new on the Person object and passing in parameter values:
 
-`var toby = new Person('Toby', 20)`
+`var toby = new Person('Toby', 20);`
 
 All in all, though this is a basic example it may seem unnecessary as you can just create objects using hashes ( {} ). This is useful for simple needs, however, as projects get more and more complex so does your models, and I imagine a full page of hashes would be unsightly and unmanagable. So it is very useful to get into the habit of blueprinting your objects in a separate file.
 
