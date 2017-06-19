@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Web Design and Mockups"
-date:   2017-06-19 03:56:37 +0000
+date:   2017-06-18 23:56:37 -0400
 ---
 
 
