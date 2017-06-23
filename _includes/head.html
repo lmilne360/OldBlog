@@ -18,12 +18,9 @@
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
 
-    <!-- About css -->
-    <link rel="stylesheet" href="{{ "/css/about.css" | prepend: site.baseurl }}">
-
     <!-- Home css -->
     <link rel="stylesheet" href="{{ "/css/home.css" | prepend: site.baseurl }}">
-
+    
     <!-- Animate CSS CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
@@ -38,4 +35,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    {% if page.custom_css %}
+      {% for stylesheet in page.custom_css %}
+        <link rel="stylesheet" href="/css/{{ stylesheet }}.css">
+      {% endfor %}
+    {% endif %}
+
 </head>

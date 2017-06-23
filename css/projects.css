@@ -1,0 +1,18 @@
+
+a.app-title  h2 {
+	font-family:"futura-pt", helvetica, sans-serif;
+	font-weight:500;
+	font-size: 36px;
+	line-height: 40px;
+	letter-spacing:.1em;
+	padding: 25px 0 25px 0;
+	margin: 25px auto;
+	color: #555;
+	text-align: center;
+	border-top:1px solid #ccc;
+}
+img {
+	background: #FFF;
+  	border-radius: 10%;
+  	box-shadow: 10px 10px 5px #888888;
+}
