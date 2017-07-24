@@ -20,6 +20,6 @@ Since showing is better than telling; If I wanted to setup a grid that had 4 col
 
 That's the basic premise of setting up a basic grid container. Notice that setting up a number of rows or columns is as simple as supplying a size value that amount of times. You can also use `repeat` to set this up for when you don't feel like typing it all out. to accomplish the same amount of columns as above you can simply write:
 
-` grid-template-columns: repeat(3, 1fr)` 
+` grid-template-columns: repeat(4, 1fr)` 
 
 This sums up the basics of setting up your grid layout.
