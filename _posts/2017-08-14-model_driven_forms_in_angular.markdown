@@ -28,7 +28,7 @@ Now that I got my user input, next is to remove all the white spaces. I accompli
 
 I basically reassigned the `word` variable to its previous self after replacing all the white spaces. So that's it; the first step of the challenge is now complete.
 
-### Step2: Lucario
+### Step 2: Lucario
 For the second part of the challenge, reversing the string, I decided to write a separate method for this functionality. This method would take a string as a parameter and return the string in reverse order.
 
 `public static string ReverseString(string str){}`
@@ -56,7 +56,7 @@ string reversed = ReserveString(word);
 ```
 Now, in the main method, we have a `word` variable, which is the parsed user input, and a `reversed` variable which is the word variable passed through a method and returned in a reversed state. The last part of the challenge is to take that reserved string and replace each character with a character in the alphabet positioned `n` letters away from it with `n` being that letter's index in the string. Confusing, I know.
 
-### Step3: Slowpoke
+### Step 3: Slowpoke
 so the first part is similar to the previous section in which we created a new function that returns a string. In this example, we'll call it `TransformString`. Similar to the previous section, we'll  convert the string being passed into an array and store it in an array as well as declare an empty string variable in which we'd store the replaced characters. Additionally, we'll create an array of alphabet characters for later parsing. For simplicity sake, we'll only be using downcase letters.
 
 ```
