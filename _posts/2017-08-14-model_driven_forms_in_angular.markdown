@@ -7,7 +7,8 @@ date:   2017-08-13 23:54:07 -0400
 
 So since I've been playing around with a fiew challenges on the web. I decided to break down one of the really fun ones i've dealth with.
 
-The Challenge:  Write, in the C# language,  a function that takes a string of alphabetic characters, strips out any spaces, reverses the string and then return the string after manipulating it as follows:
+### The Challenge:  
+Write, in the C# language,  a function that takes a string of alphabetic characters, strips out any spaces, reverses the string and then return the string after manipulating it as follows:
 Each character in the string is changed to the character in the alphabet that's the number of places ahead of it equal to the character's position in the string, where the first character is in position 1 and z wraps around to a. 
 
 Disclaimer: As this is an already long post, I am not going to dwell on the syntax of the C# language. Google is your friend.
