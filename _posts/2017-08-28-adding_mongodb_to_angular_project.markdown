@@ -51,7 +51,7 @@ app.get('*', (req, res) => {
 
 ```
 
-This sends all non '/api` requests to the index page in our build folder, which is commonly named `dist` or `www`. The final part of this is to then create the server on a specific port.
+This sends all non `/api` requests to the index page in our build folder, which is commonly named `dist` or `www`. The final part of this is to then create the server on a specific port.
 
 ```
 app.set('port', process.env.PORT || 3000);
